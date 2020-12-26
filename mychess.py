@@ -108,7 +108,7 @@ def game_intro():
         large_text = pygame.font.SysFont('consolas', 110)
         large_text_white = large_text.render("MyChess", 1, (255, 255, 255))
         small_text = pygame.font.SysFont('consolas', 22)
-        version_text_white = small_text.render("v0.7-beta", 1, (255, 255, 255))
+        version_text_white = small_text.render("v0.7-alpha", 1, (255, 255, 255))
         name_text_white = small_text.render("by Evan DeVizio", 1, (255, 255, 255))
         screen.blit(large_text_white, (190, 245))
         screen.blit(version_text_white, (660, 750))
